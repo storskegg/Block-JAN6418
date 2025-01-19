@@ -1658,7 +1658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00501a4b-eebf-4a08-9782-9df63d08c5cf")
-		(property "Reference" "J3"
+		(property "Reference" "Sig_in"
 			(at 20.32 54.61 0)
 			(effects
 				(font
@@ -1707,7 +1707,7 @@
 		(instances
 			(project "Block-JAN6418"
 				(path "/3c383edb-2f76-4d07-a4e0-15afb529fb0e"
-					(reference "J3")
+					(reference "Sig_in")
 					(unit 1)
 				)
 			)
@@ -2074,7 +2074,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44d98aa5-cad4-4123-8fa8-86bd31acd921")
-		(property "Reference" "R3"
+		(property "Reference" "Ra"
 			(at 52.07 30.4799 0)
 			(effects
 				(font
@@ -2128,7 +2128,7 @@
 		(instances
 			(project ""
 				(path "/3c383edb-2f76-4d07-a4e0-15afb529fb0e"
-					(reference "R3")
+					(reference "Ra")
 					(unit 1)
 				)
 			)
@@ -2214,7 +2214,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d94e9f5-7904-4e9e-9f46-7988af26c4a3")
-		(property "Reference" "J4"
+		(property "Reference" "Sig_out"
 			(at 71.12 39.3699 0)
 			(effects
 				(font
@@ -2265,7 +2265,7 @@
 		(instances
 			(project "Block-JAN6418"
 				(path "/3c383edb-2f76-4d07-a4e0-15afb529fb0e"
-					(reference "J4")
+					(reference "Sig_out")
 					(unit 1)
 				)
 			)
@@ -2421,7 +2421,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ebf5bdc-d418-4026-a3b0-a12006397fad")
-		(property "Reference" "R6"
+		(property "Reference" "Impedance"
 			(at 39.37 67.3099 0)
 			(effects
 				(font
@@ -2475,7 +2475,7 @@
 		(instances
 			(project "Block-JAN6418"
 				(path "/3c383edb-2f76-4d07-a4e0-15afb529fb0e"
-					(reference "R6")
+					(reference "Impedance")
 					(unit 1)
 				)
 			)
@@ -2691,7 +2691,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9462660f-8a7e-4af3-af38-cfdde2f34bd7")
-		(property "Reference" "J1"
+		(property "Reference" "B+"
 			(at 52.07 17.7799 90)
 			(effects
 				(font
@@ -2742,7 +2742,7 @@
 		(instances
 			(project ""
 				(path "/3c383edb-2f76-4d07-a4e0-15afb529fb0e"
-					(reference "J1")
+					(reference "B+")
 					(unit 1)
 				)
 			)
@@ -2960,7 +2960,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1f0ca74-677c-4a4e-9858-f8c99bcf80c2")
-		(property "Reference" "J5"
+		(property "Reference" "+9V"
 			(at 20.32 17.78 0)
 			(effects
 				(font
@@ -3009,7 +3009,7 @@
 		(instances
 			(project "Block-JAN6418"
 				(path "/3c383edb-2f76-4d07-a4e0-15afb529fb0e"
-					(reference "J5")
+					(reference "+9V")
 					(unit 1)
 				)
 			)
@@ -3091,7 +3091,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d835bf03-d0cf-4b18-8578-bcb348eef959")
-		(property "Reference" "J2"
+		(property "Reference" "Sig_gnd"
 			(at 22.86 34.2899 90)
 			(effects
 				(font
@@ -3142,7 +3142,7 @@
 		(instances
 			(project "Block-JAN6418"
 				(path "/3c383edb-2f76-4d07-a4e0-15afb529fb0e"
-					(reference "J2")
+					(reference "Sig_gnd")
 					(unit 1)
 				)
 			)
