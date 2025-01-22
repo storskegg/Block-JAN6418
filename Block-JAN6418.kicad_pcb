@@ -5462,7 +5462,7 @@
 		(descr "TO-92 leads in-line, wide, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "U2"
-			(at 2.54 -3.56 360)
+			(at 2.54 -3.56 0)
 			(layer "F.SilkS")
 			(uuid "b5503b83-5909-493b-b714-a94a90d3cb83")
 			(effects
@@ -5473,7 +5473,7 @@
 			)
 		)
 		(property "Value" "LM317L"
-			(at 2.54 2.79 360)
+			(at 2.54 2.79 0)
 			(layer "F.Fab")
 			(uuid "cb624146-63c6-49cb-ba3f-b18a4cc3bf03")
 			(effects
@@ -5650,7 +5650,7 @@
 			(uuid "1346aa67-4f47-4308-a9fb-9a09776208a0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.54 0 360)
+			(at 2.54 0 0)
 			(layer "F.Fab")
 			(uuid "be3e086f-e589-4af7-a30e-45ef18650ddf")
 			(effects
@@ -6257,7 +6257,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -6268,7 +6268,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
@@ -6292,7 +6292,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
