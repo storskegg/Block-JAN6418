@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "8.0.8"
+      "Version": "9.0.0-rc3"
     },
-    "CreationDate": "2025-01-19T15:48:06-06:00"
+    "CreationDate": "2025-02-26T11:37:17-06:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -14,12 +14,12 @@
       "Revision": "rev?"
     },
     "Size": {
-      "X": 48.05,
-      "Y": 63.05
+      "X": 45.05,
+      "Y": 60.05
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
-    "Finish": "None"
+    "Finish": "HAL lead-free"
   },
   "DesignRules": [
     {
