@@ -6,13 +6,19 @@ A simple yet flexible gain stage based on the JAN6418 subminiature pentode.
 
 - Filament supply options:
     - 2x resistor voltage drop
-    - LM317L direct regulation
+    - Optional bypass capacitor
 - Pentode/Triode mode:
     - Triode: Jumper (0 Ohm resistor) S2 to the plate
-    - Pentode: Solder a resistor between S2 and the plate, and S2 and ground
+    - Pentode: Solder a resistor between S2 and B+, and S2 and ground
     - Pentode: Solder leads to an off-board potentiometer in lieu of the two
       resistors
-- Star ground: Every on-board ground connection has its own trace to `Sig_gnd`
+- Impedance controlled PCB stack-up:
+    - Top, Inner-2, and Bottom copper fill ground planes
+    - Signal lines on Inner-1 layer
+    - Power lines on Bottom Layer
+    - Vias along signal path for improved impedance control
+- Mounting holes on either side of the tube for securing using rubber or
+  silicone grommets, and a pair of 2.54mm (0.1in) zipties.
 
 ## Background
 
