@@ -58,7 +58,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_overlap|73920000|73500000|aec42b12-6787-4f9a-8177-5bf5e7f7d591|6a57deb3-5125-4c67-a532-d32c3a8c7c1f",
+          "Baked into component footpad. I'm not changing it."
+        ],
+        [
+          "silk_overlap|82100000|72600000|1d9ee5cd-c7b4-44e0-83de-9d9a365679da|9c7bdf21-41e1-464c-bb70-36531eaa0f29",
+          "Baked into the component footpad. I'm not changing it"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -187,7 +196,9 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.5,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -219,6 +230,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.7,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
